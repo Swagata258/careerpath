@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CareerPath Advisor</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🎯 CareerPath Advisor</h1>
+      <p>Choose the right career, course, college, and free resources.</p>
+    </header>
+
+    <!-- Auth -->
+    <section id="auth">
+      <div class="card">
+        <h2>Login</h2>
+        <input id="loginEmail" placeholder="Email" />
+        <input id="loginPassword" placeholder="Password" type="password" />
+        <button onclick="login()">Login</button>
+        <p class="hint">No account? Sign up below.</p>
+      </div>
+
+      <div class="card">
+        <h2>Sign Up</h2>
+        <input id="signupEmail" placeholder="Email" />
+        <input id="signupPassword" placeholder="Password" type="password" />
+        <button onclick="signup()">Create Account</button>
+        <p id="authMsg" class="msg"></p>
+      </div>
+    </section>
+
+    <!-- Form -->
+    <section id="formSection" class="hidden">
+      <div class="card wizard">
+        <h2>Student Details</h2>
+        <div class="grid">
+          <label>Highest Qualification
+            <select id="hq">
+              <option>Class 10</option>
+              <option>Class 12</option>
+              <option>Diploma</option>
+              <option>Graduate</option>
+            </select>
+          </label>
+          <label>Stream
+            <select id="stream">
+              <option>Science</option>
+              <option>Commerce</option>
+              <option>Arts</option>
+            </select>
+          </label>
+          <label>Board Marks (%)
+            <input id="marks" type="number" min="0" max="100"/>
+          </label>
+          <label>City
+            <input id="city"/>
+          </label>
+          <label>Country
+            <input id="country" value="India"/>
+          </label>
+          <label>Ready to go Abroad?
+            <select id="abroad">
+              <option value="false">No</option>
+              <option value="true">Yes</option>
+            </select>
+          </label>
+          <label>Yearly Budget (₹)
+            <input id="budget" type="number"/>
+          </label>
+          <label>Dream Course (optional)
+            <select id="dream">
+              <option value="">-- None --</option>
+              <option value="CSE">CSE</option>
+              <option value="AI">AI</option>
+              <option value="DS">DS</option>
+              <option value="ECE">ECE</option>
+              <option value="ME">ME</option>
+              <option value="BIO">BIO</option>
+              <option value="BBA">BBA</option>
+              <option value="BCom">BCom</option>
+              <option value="CA">CA</option>
+              <option value="CS">CS</option>
+              <option value="FIN">FIN</option>
+              <option value="BA">BA</option>
+              <option value="LAW">LAW</option>
+              <option value="PSY">PSY</option>
+              <option value="DESIGN">DESIGN</option>
+              <option value="JOUR">JOUR</option>
+            </select>
+          </label>
+        </div>
+        <div class="row">
+          <button onclick="saveForm()">Save & Continue</button>
+        </div>
+        <p id="formMsg" class="msg"></p>
+      </div>
+
+      <div class="card hidden" id="testCard">
+        <h2 id="testTitle">Test</h2>
+        <div id="questions"></div>
+        <button id="submitTestBtn" onclick="submitTest()">Submit Test</button>
+        <p id="testMsg" class="msg"></p>
+      </div>
+
+      <div class="card hidden" id="resultsCard">
+        <h2>Results & Next Steps</h2>
+        <div id="recCourses"></div>
+        <div class="row">
+          <label>Pick a course
+            <select id="coursePick"></select>
+          </label>
+          <button onclick="loadResources()">Get Free Resources</button>
+          <button onclick="loadColleges()">Find Colleges</button>
+        </div>
+        <div id="resources"></div>
+        <div id="colleges"></div>
+      </div>
+    </section>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
