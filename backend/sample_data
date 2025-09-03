@@ -1,0 +1,9 @@
+name,country,city,is_government,courses,fees_per_year,scholarships,placements,website
+IIT Bombay,India,Mumbai,1,"CSE,ECE,ME,AI,DS",200000,Merit-based up to 50%,Avg 24 LPA,https://www.iitb.ac.in
+NIT Trichy,India,Tiruchirappalli,1,"CSE,ECE,ME,DS,AI",140000,Merit + Need,Avg 12 LPA,https://www.nitt.edu
+ABC University,India,Kolkata,0,"CSE,BBA,BCom,LAW,PSY",120000,Entrance toppers,Avg 6 LPA,https://www.abcuniv.example
+Design Inst. of India,India,Bengaluru,0,"DESIGN,CSE",100000,Portfolio awards,Avg 5 LPA,https://www.dii.example
+State College of Arts,India,Delhi,1,"BA,JOUR,LAW",50000,State scholarships,Avg 4 LPA,https://www.sca.example
+MIT,USA,Cambridge,0,"CSE,AI,DS,ECE",450000,Generous need-based,Avg 150k USD,https://www.mit.edu
+UCLA,USA,Los Angeles,0,"CSE,DS,AI,ME",380000,Need + Merit,Avg 120k USD,https://www.ucla.edu
+Uni Melbourne,Australia,Melbourne,0,"AI,DS,BIO",420000,International grants,Strong placements,https://www.unimelb.edu.au
