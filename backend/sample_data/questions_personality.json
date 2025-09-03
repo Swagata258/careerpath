@@ -1,0 +1,22 @@
+[
+  {
+    "question":"Which task do you enjoy most?",
+    "options":{"A":"Solving puzzles","B":"Designing posters","C":"Helping friends","D":"Fixing gadgets"},
+    "traits":{
+      "A":{"Analytical":2},
+      "B":{"Creative":2},
+      "C":{"Social":2},
+      "D":{"Practical":2}
+    }
+  },
+  {
+    "question":"In a group project, you usually...",
+    "options":{"A":"Do the data part","B":"Make it look good","C":"Coordinate people","D":"Build the prototype"},
+    "traits":{
+      "A":{"Analytical":2},
+      "B":{"Creative":2},
+      "C":{"Social":2},
+      "D":{"Practical":2}
+    }
+  }
+]

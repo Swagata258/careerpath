@@ -1,0 +1,23 @@
+
+[
+  {
+    "question": "What is 15% of 200?",
+    "options": {"A":"20", "B":"25", "C":"30", "D":"35"},
+    "answer_key": "C"
+  },
+  {
+    "question": "Find the next number: 2, 6, 12, 20, ?",
+    "options": {"A":"28", "B":"30", "C":"32", "D":"34"},
+    "answer_key": "A"
+  },
+  {
+    "question": "If x=4, evaluate 3x^2 - 2x.",
+    "options": {"A":"40", "B":"48", "C":"56", "D":"44"},
+    "answer_key": "A"
+  },
+  {
+    "question": "Synonym of 'Rapid'?",
+    "options": {"A":"Slow", "B":"Fast", "C":"Late", "D":"Lazy"},
+    "answer_key": "B"
+  }
+]

@@ -1,0 +1,15 @@
+course_code,title,url,is_free
+CSE,CS50: Introduction to Computer Science,https://cs50.harvard.edu/x,1
+CSE,The Odin Project,https://www.theodinproject.com,1
+AI,Elements of AI,https://www.elementsofai.com,1
+DS,Kaggle Learn: Data Science,https://www.kaggle.com/learn,1
+ECE,NOC: Signals & Systems (NPTEL),https://nptel.ac.in/courses/117104074,1
+ME,MIT OCW: Mechanics,https://ocw.mit.edu,1
+BIO,HHMI BioInteractive,https://www.biointeractive.org,1
+BBA,Open Textbook: Principles of Management,https://openstax.org/details/books/principles-management,1
+BCom,Accounting Principles,https://www.accountingcoach.com,1
+LAW,Intro to Law (OpenLearn),https://www.open.edu/openlearn/society-politics-law,1
+PSY,Intro Psych (MIT OCW),https://ocw.mit.edu/courses/9-00sc-introduction-to-psychology-fall-2011/,1
+DESIGN,FreeCodeCamp UI/UX Basics,https://www.freecodecamp.org/news/learn-ux-design,1
+JOUR,Data Journalism Handbook,https://datajournalism.com,1
+FIN,Investopedia Academy Basics,https://www.investopedia.com,1
